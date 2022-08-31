@@ -1,16 +1,26 @@
-# lottery_advance
+<h1 align="center">Flutter Advance Lottery DAPP</h1>
 
-A new Flutter project.
+<p align="center">
+  <a href="https://github.com/Mufaddal5253110/lottery-dapp/stargazers">
+    <img src="https://img.shields.io/github/stars/Mufaddal5253110/lottery-dapp.svg?style=for-the-badge">
+  </a>
+</p>
 
-## Getting Started
+## Overview
+DEMO : https://youtu.be/-f8emgMtADk
 
-This project is a starting point for a Flutter application.
+### Features
+- [x] Private key of wallet is used to fetch public key and eth in wallet.
+- [x] Multiple Account can be saved for future use.
+- [x] Light mode and Dark mode theme.
+- [x] Dashboard with the list of public lotteries created by community.
+- [x] Lotteries can only be activated by the creator of the lottery.
+- [x] Lottery can only be deleted by the creator of the lottery.
+- [x] Anyone can participate into lottery by spending eth limit set by the creator.
+- [x] Maximum entries is also set by the creator of the lottery.
+- [x] Winner is chosen by random inside the contract, triggered by lottery creator.
+- [x] Total ether collected is paid to the winner automatically upon winner selection.
 
-A few resources to get you started if this is your first Flutter project:
+## Contributing
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you want to take the time to make this project better, please read the Todo first and try to complete them. Then, you can open a new [issue](https://github.com/Mufaddal5253110/lottery-dapp/issues/new/choose), of a [pull request](https://github.com/Mufaddal5253110/lottery-dapp/compare).
