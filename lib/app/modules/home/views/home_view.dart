@@ -55,8 +55,8 @@ class HomeView extends StatelessWidget {
           icon: const Icon(FontAwesomeIcons.github),
           onPressed: () async {
             const url = 'https://github.com/Mufaddal5253110/lottery-dapp';
-            await canLaunch(url)
-                ? await launch(url)
+            await canLaunchUrl(Uri.parse(url))
+                ? await launchUrl(Uri.parse(url))
                 : throw 'Could not launch $url';
           },
         ),
